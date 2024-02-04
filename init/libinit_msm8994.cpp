@@ -147,7 +147,7 @@ void set_variant_props(const variant_info_t variant)
     property_override("ro.build.description", variant.build_description.c_str());
 }
 
-#ifdef LIBINIT_MSM8937_MODS
+#ifdef LIBINIT_MSM8994_MODS
 /* From Magisk@native/jni/magiskhide/hide_utils.c */
 static const char *cts_prop_key[] =
     {"ro.boot.vbmeta.device_state", "ro.boot.verifiedbootstate", "ro.boot.flash.locked",
